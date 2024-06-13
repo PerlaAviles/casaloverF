@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 38, 38,);
+  }
+  
+  .container {
+    position: relative;
+    width: 1000px; /* Ajusta el tamaño según el tamaño real de tu imagen */
+    height: auto;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .device {
+    position: absolute;
+    width: 80px; /* Ajusta según el tamaño deseado para los dispositivos */
+  }
+  
+  .foco {
+    width: 30px; /* Tamaño de los focos */
+  }
+
+  .camara {
+    width: 40px; /* Tamaño de las cámaras */
+  }
+
+  .persiana{
+    width: 55px;
+  }
+
+  .alarma{
+    width: 20px;
+  }
+  
+  #ventilador {
+    top: 40%; /* Ajusta estas posiciones */
+    left: 30%;
+    width: 150px; /* Ajusta el tamaño según lo necesites */
+    height: 150px; /* Ajusta el tamaño según lo necesites */
+  }
+  
+  #foco1 {
+    top: 56%;
+    left: 91%;
+  }
+  
+  #foco2 {
+    top: 47%;
+    left: 89%;
+  }
+  
+  #foco3 {
+    top: 58%;
+    left: 11%;
+  }
+  
+  #foco4 {
+    top: 52%;
+    left: 6%;
+  }
+  
+  #foco5 {    /*foco recamara*/
+    top: 60%;
+    left: 20%;
+  }
+  
+  #foco6 {   /*foco sala*/
+    top: 75%;
+    left: 68%;
+  }
+  
+  #foco7 {
+    top: 46%;
+    left: 3%;
+  }
+  
+
+
+
+  /* CAMARAS */
+#camara1 { top: 12%; left: 50%; }
+#camara2 { top: 25%; left: 60%; }
+#camara3 { top: 49%; left: 48%; }
+
+
+
+/*PERSIANAS*/
+#persiana1 { top: 35%; left: 55%; width: 300px; height: 300px; }
+#persiana2 { top: 60%; left: 18%; width: 300px; height: 300px; }
+#persiana3 { top: 10%; left: 42%;  width: 195px; height: 300px;}
+
+
+/*ALARMA*/
+#alarma { top: 85%; left: 55%; }
